@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C0FFB52245DFFC500C93C24 /* First UI View ControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0FFB51245DFFC500C93C24 /* First UI View ControllerViewController.swift */; };
+		5C0FFB54245DFFD900C93C24 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0FFB53245DFFD900C93C24 /* SecondViewController.swift */; };
+		5C0FFB56245DFFE500C93C24 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0FFB55245DFFE500C93C24 /* ThirdViewController.swift */; };
+		5C0FFB58245DFFEF00C93C24 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0FFB57245DFFEF00C93C24 /* FourthViewController.swift */; };
+		5C0FFB5A245DFFFB00C93C24 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0FFB59245DFFFB00C93C24 /* FifthViewController.swift */; };
 		5CFE7C70245BE02500603DB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFE7C6F245BE02500603DB2 /* AppDelegate.swift */; };
 		5CFE7C72245BE02500603DB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFE7C71245BE02500603DB2 /* SceneDelegate.swift */; };
 		5CFE7C74245BE02500603DB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFE7C73245BE02500603DB2 /* ViewController.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C0FFB51245DFFC500C93C24 /* First UI View ControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "First UI View ControllerViewController.swift"; sourceTree = "<group>"; };
+		5C0FFB53245DFFD900C93C24 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		5C0FFB55245DFFE500C93C24 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		5C0FFB57245DFFEF00C93C24 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		5C0FFB59245DFFFB00C93C24 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 		5CFE7C6C245BE02500603DB2 /* PatternAppFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatternAppFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CFE7C6F245BE02500603DB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CFE7C71245BE02500603DB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +70,11 @@
 				5CFE7C71245BE02500603DB2 /* SceneDelegate.swift */,
 				5CFE7C73245BE02500603DB2 /* ViewController.swift */,
 				5CFE7C75245BE02500603DB2 /* Main.storyboard */,
+				5C0FFB51245DFFC500C93C24 /* First UI View ControllerViewController.swift */,
+				5C0FFB53245DFFD900C93C24 /* SecondViewController.swift */,
+				5C0FFB55245DFFE500C93C24 /* ThirdViewController.swift */,
+				5C0FFB57245DFFEF00C93C24 /* FourthViewController.swift */,
+				5C0FFB59245DFFFB00C93C24 /* FifthViewController.swift */,
 				5CFE7C78245BE02A00603DB2 /* Assets.xcassets */,
 				5CFE7C7A245BE02A00603DB2 /* LaunchScreen.storyboard */,
 				5CFE7C7D245BE02A00603DB2 /* Info.plist */,
@@ -141,6 +156,11 @@
 				5CFE7C74245BE02500603DB2 /* ViewController.swift in Sources */,
 				5CFE7C70245BE02500603DB2 /* AppDelegate.swift in Sources */,
 				5CFE7C72245BE02500603DB2 /* SceneDelegate.swift in Sources */,
+				5C0FFB58245DFFEF00C93C24 /* FourthViewController.swift in Sources */,
+				5C0FFB5A245DFFFB00C93C24 /* FifthViewController.swift in Sources */,
+				5C0FFB54245DFFD900C93C24 /* SecondViewController.swift in Sources */,
+				5C0FFB56245DFFE500C93C24 /* ThirdViewController.swift in Sources */,
+				5C0FFB52245DFFC500C93C24 /* First UI View ControllerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
