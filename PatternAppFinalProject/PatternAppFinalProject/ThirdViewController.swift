@@ -16,7 +16,21 @@ class ThirdViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBOutlet weak var labelOne: UILabel!
+    @IBOutlet weak var labelTwo: UILabel!
+    @IBOutlet weak var labelThree: UILabel!
+    
+    @IBAction func buttonOne(_ sender: Any) {
+        labelOne.text = "x"
+    }
+    
+    @IBAction func buttonTwo(_ sender: Any) {
+        labelTwo.text = "x"
+    }
+    
+    @IBAction func buttonThree(_ sender: Any) {
+        labelThree.text = "x"
+    }
     /*
     // MARK: - Navigation
 

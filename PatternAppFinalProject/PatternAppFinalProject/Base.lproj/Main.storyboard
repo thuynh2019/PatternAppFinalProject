@@ -214,11 +214,58 @@
                                 <rect key="frame" x="336" y="287" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jFs-cL-2sL">
+                                <rect key="frame" x="336" y="177" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="buttonOne:" destination="rC6-KY-sJX" eventType="touchUpInside" id="h7o-Ir-cTr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbu-Tm-p4g">
+                                <rect key="frame" x="336" y="232" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="buttonTwo:" destination="rC6-KY-sJX" eventType="touchUpInside" id="TZP-hE-tE3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V9J-8m-qBr">
+                                <rect key="frame" x="336" y="286" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="buttonThree:" destination="rC6-KY-sJX" eventType="touchUpInside" id="54m-D7-Lcu"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NC2-l3-0ge">
+                                <rect key="frame" x="330" y="177" width="42" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfL-hg-fJn">
+                                <rect key="frame" x="330" y="232" width="42" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I0n-qu-hCM">
+                                <rect key="frame" x="330" y="287" width="42" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="kjU-qa-dOf"/>
                     </view>
                     <navigationItem key="navigationItem" id="MIQ-mM-3jf"/>
+                    <connections>
+                        <outlet property="labelOne" destination="NC2-l3-0ge" id="ct2-jP-GPT"/>
+                        <outlet property="labelThree" destination="I0n-qu-hCM" id="UY7-kM-xon"/>
+                        <outlet property="labelTwo" destination="vfL-hg-fJn" id="Zq3-PE-qgf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sQj-af-wf2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -441,11 +488,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="8BN-cc-G0z"/>
-        <segue reference="swZ-8a-OFb"/>
+        <segue reference="Sm4-T7-ird"/>
+        <segue reference="K01-jq-wbP"/>
         <segue reference="aJ4-8l-1cO"/>
-        <segue reference="cUp-8J-9Mz"/>
-        <segue reference="G57-55-UeW"/>
+        <segue reference="7M1-Nl-ulS"/>
+        <segue reference="jPX-3H-6ty"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="ADD HERB BUTTON" width="205" height="73"/>
