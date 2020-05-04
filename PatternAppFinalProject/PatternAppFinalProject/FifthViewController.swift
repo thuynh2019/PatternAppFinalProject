@@ -22,22 +22,27 @@ class FifthViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
     
     var herbs = ["Acerola", "Achiote", "Agrimony"]
     var gender = ["Male", "Female"]
+    
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
+    
     func pickerView(_ pickerView: UIPickerView, titleForRow row:Int, forComponent component: Int) -> String? {
         self.view.endEditing(true)
         return herbs[row]
     }
+    
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         return herbs.count
     }
+    
     func pickerView(_ pickerView: UIPickerView, didSelectRow row:Int, inComponent component: Int){
         if pickerView == pickerView {
             self.text1.text = self.herbs[row]
             self.pickerView.isHidden = true
         }
     }
+    
     func textFieldDidBeginEditing(_ textField: UITextField) {
         if (textField == self.text1){
             self.pickerView.isHidden = false
@@ -53,7 +58,7 @@ class FifthViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
     }
     
     @IBAction func calculateButton(_ sender: Any) {
-        testLabel.text = "Text has changed, button pressed"
+        testLabel.text = "10 grams per day"
     }
     
     
