@@ -337,7 +337,7 @@
                                     <outlet property="delegate" destination="krW-EE-ze1" id="Tbe-YO-khd"/>
                                 </connections>
                             </textField>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QcR-3e-x5A">
+                            <pickerView hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QcR-3e-x5A">
                                 <rect key="frame" x="208" y="65" width="123" height="216"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <connections>
