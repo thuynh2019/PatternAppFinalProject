@@ -23,8 +23,8 @@
                                 <rect key="frame" x="-38" y="-43" width="491" height="208"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="body copy main" translatesAutoresizingMaskIntoConstraints="NO" id="Bwk-QU-GD9">
-                                <rect key="frame" x="-30" y="124" width="473" height="1287"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Body Copy w: Images" translatesAutoresizingMaskIntoConstraints="NO" id="iu1-bc-UQ5">
+                                <rect key="frame" x="-204" y="124" width="801" height="1302"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="bottom nav bar" translatesAutoresizingMaskIntoConstraints="NO" id="xDs-OY-e3Q">
@@ -442,8 +442,8 @@
                                 <rect key="frame" x="-169" y="-137" width="753" height="1264"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="body copy main" translatesAutoresizingMaskIntoConstraints="NO" id="Xpt-tS-P4z">
-                                <rect key="frame" x="-30" y="117" width="473" height="1287"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Body Copy w: Images" translatesAutoresizingMaskIntoConstraints="NO" id="ZN4-U8-hND">
+                                <rect key="frame" x="-204" y="120" width="801" height="1302"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="bottom nav bar" translatesAutoresizingMaskIntoConstraints="NO" id="5z9-Zt-Yz8">
@@ -499,11 +499,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="8BN-cc-G0z"/>
-        <segue reference="K01-jq-wbP"/>
-        <segue reference="aJ4-8l-1cO"/>
-        <segue reference="cUp-8J-9Mz"/>
-        <segue reference="jPX-3H-6ty"/>
+        <segue reference="qYC-UJ-2VN"/>
+        <segue reference="lKO-81-kNF"/>
+        <segue reference="axf-1X-FjU"/>
+        <segue reference="YIY-UU-JfO"/>
+        <segue reference="G57-55-UeW"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="ADD HERB BUTTON" width="205" height="73"/>
@@ -512,6 +512,7 @@
         <image name="BOOKMARKS-2" width="76" height="50"/>
         <image name="BROWSE gray" width="104" height="53"/>
         <image name="BROWSE-2" width="104" height="53"/>
+        <image name="Body Copy w: Images" width="397" height="1188.6666259765625"/>
         <image name="CAL BUTTON" width="205" height="73"/>
         <image name="CALC-2" width="76" height="50"/>
         <image name="CALCULATE NAV" width="76" height="50"/>
@@ -521,7 +522,6 @@
         <image name="No bookmarks at the moment…" width="271" height="69"/>
         <image name="TOP NAV BAR-3" width="435" height="167"/>
         <image name="TOP TAB BAR" width="435" height="167"/>
-        <image name="body copy main" width="381" height="1188.6666259765625"/>
         <image name="bottom nav bar" width="435" height="143"/>
         <image name="filter list" width="341" height="152"/>
         <image name="form" width="340" height="207"/>
