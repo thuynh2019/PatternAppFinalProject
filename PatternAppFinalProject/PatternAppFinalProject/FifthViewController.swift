@@ -58,8 +58,12 @@ class FifthViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
     }
     
     @IBAction func calculateButton(_ sender: Any) {
-        testLabel.text = "10 grams per day"
+        let numberOne = Int(text3.text!)
+        let numberTwo = Int(text4.text!)
+        let solutionVariable = numberOne! + numberTwo!
+        testLabel.text = String(solutionVariable)
     }
+    var stringVariable = String.self
     
     
 
