@@ -282,10 +282,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="wall-paper-1193001_640" translatesAutoresizingMaskIntoConstraints="NO" id="yq3-Dz-VhE">
-                                <rect key="frame" x="-103" y="32" width="714" height="864"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mdH-Yt-D64">
                                 <rect key="frame" x="188" y="398" width="205" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -327,13 +323,6 @@
                                     <segue destination="dl8-Vd-BOm" kind="show" id="cUp-8J-9Mz"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y5k-PY-NOB">
-                                <rect key="frame" x="48" y="503" width="328" height="252"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jan-Sl-gsU">
                                 <rect key="frame" x="188" y="158" width="200" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -384,14 +373,33 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="wall-paper-1193001_640" translatesAutoresizingMaskIntoConstraints="NO" id="yq3-Dz-VhE">
+                                <rect key="frame" x="0.0" y="44" width="714" height="864"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y5k-PY-NOB">
+                                <rect key="frame" x="59" y="503" width="89" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O5A-Xb-4hU">
+                                <rect key="frame" x="146" y="503" width="242" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="WZP-oW-ISD"/>
                     </view>
                     <navigationItem key="navigationItem" id="L3S-Am-eIc"/>
                     <connections>
+                        <outlet property="gramsLabel" destination="O5A-Xb-4hU" id="OtO-3s-mw0"/>
                         <outlet property="pickerView" destination="QcR-3e-x5A" id="zAy-eU-x96"/>
-                        <outlet property="testLabel" destination="Y5k-PY-NOB" id="e01-NM-puC"/>
+                        <outlet property="testLabel" destination="Y5k-PY-NOB" id="lg8-ui-e9k"/>
                         <outlet property="text1" destination="0Sa-hh-Wpa" id="Um9-Rx-3sG"/>
                         <outlet property="text2" destination="m7X-uw-9Qy" id="yvI-O8-Pnn"/>
                         <outlet property="text3" destination="idC-SI-qos" id="dpo-T1-zHB"/>
@@ -492,7 +500,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="8BN-cc-G0z"/>
-        <segue reference="VMn-3N-2KR"/>
+        <segue reference="K01-jq-wbP"/>
         <segue reference="aJ4-8l-1cO"/>
         <segue reference="cUp-8J-9Mz"/>
         <segue reference="jPX-3H-6ty"/>

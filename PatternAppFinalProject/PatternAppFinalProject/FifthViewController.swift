@@ -10,7 +10,9 @@ import UIKit
 
 class FifthViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate, UITextFieldDelegate {
     
-
+    @IBOutlet weak var gramsLabel: UILabel!
+    
+    
     @IBOutlet weak var testLabel: UILabel!
     @IBOutlet weak var pickerView: UIPickerView!
     @IBOutlet weak var text1: UITextField!
@@ -62,7 +64,9 @@ class FifthViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
         let numberTwo = Int(text4.text!)
         let solutionVariable = numberOne! + numberTwo!
         testLabel.text = String(solutionVariable)
+        gramsLabel.text = "grams per day"
     }
+    
     var stringVariable = String.self
     
     
